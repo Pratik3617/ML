@@ -1,0 +1,5 @@
+train: /home/coewml/Pratik/ML/Projects/FACE_MASK_DETECTION/yolo_data/images/train
+val: /home/coewml/Pratik/ML/Projects/FACE_MASK_DETECTION/yolo_data/images/val
+nc: 2
+names: ["with_mask", "without_mask"]
+
