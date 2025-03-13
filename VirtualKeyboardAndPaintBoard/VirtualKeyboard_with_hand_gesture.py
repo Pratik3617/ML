@@ -34,7 +34,7 @@ prev_x, prev_y = None, None  # Store the previous fingertip position
 
 # Exponential Moving Average for smoother movement
 smooth_x, smooth_y = None, None
-alpha = 0.3  # Smoothing factor (adjusted for better fluidity)
+alpha = 0.1  # Smoothing factor (adjusted for better fluidity)
 
 # Initialize Webcam
 cap = cv2.VideoCapture(0)
